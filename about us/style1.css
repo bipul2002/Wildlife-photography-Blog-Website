@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/ele.jpg);
+    background-blend-mode: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'josefin sans',sans-serif;
+}
+
+   
+nav{
+    height: 2cm;
+    width: 36.cm;
+    background-color: none;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    
+}
+nav li{
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 0.8cm;
+    float: right;
+    font: bolder;
+    font-size: 30px;
+}
+nav li a{
+    color: rgb(80, 38, 179);
+    font-size: 2vh;
+    display: inline-block;
+    font-style: normal;
+    text-decoration: none;
+}
+.menu{
+    width: 40%;
+    display: flex;justify-content: space-around;
+
+}
+nav li a :hover{
+    background-color: #f5b048;
+    
+}
+h1{
+    margin-top: 8cm;
+    font-size: 50px;
+    color: white;
+}
